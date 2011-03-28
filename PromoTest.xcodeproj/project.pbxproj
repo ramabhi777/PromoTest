@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		35D45FC41341120000B23F46 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35D45FC31341120000B23F46 /* UIKit.framework */; };
+		35D45FC61341120000B23F46 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35D45FC51341120000B23F46 /* Foundation.framework */; };
+		35D45FC81341120000B23F46 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35D45FC71341120000B23F46 /* CoreGraphics.framework */; };
+		35D45FCE1341120000B23F46 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 35D45FCC1341120000B23F46 /* InfoPlist.strings */; };
+		35D45FD11341120000B23F46 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D45FD01341120000B23F46 /* main.m */; };
+		35D45FD41341120000B23F46 /* PromoTestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D45FD31341120000B23F46 /* PromoTestAppDelegate.m */; };
+		35D45FD71341120000B23F46 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35D45FD51341120000B23F46 /* MainWindow.xib */; };
+		35D45FDA1341120000B23F46 /* PromoTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D45FD91341120000B23F46 /* PromoTestViewController.m */; };
+		35D45FDD1341120000B23F46 /* PromoTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35D45FDB1341120000B23F46 /* PromoTestViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		35D45FBF1341120000B23F46 /* PromoTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PromoTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		35D45FC31341120000B23F46 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		35D45FC51341120000B23F46 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		35D45FC71341120000B23F46 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		35D45FCB1341120000B23F46 /* PromoTest-Info.plist */ = {isa = PBXFileReference; path = "PromoTest-Info.plist"; sourceTree = "<group>"; };
+		35D45FCD1341120000B23F46 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		35D45FCF1341120000B23F46 /* PromoTest-Prefix.pch */ = {isa = PBXFileReference; path = "PromoTest-Prefix.pch"; sourceTree = "<group>"; };
+		35D45FD01341120000B23F46 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		35D45FD21341120000B23F46 /* PromoTestAppDelegate.h */ = {isa = PBXFileReference; path = PromoTestAppDelegate.h; sourceTree = "<group>"; };
+		35D45FD31341120000B23F46 /* PromoTestAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PromoTestAppDelegate.m; sourceTree = "<group>"; };
+		35D45FD61341120000B23F46 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		35D45FD81341120000B23F46 /* PromoTestViewController.h */ = {isa = PBXFileReference; path = PromoTestViewController.h; sourceTree = "<group>"; };
+		35D45FD91341120000B23F46 /* PromoTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PromoTestViewController.m; sourceTree = "<group>"; };
+		35D45FDC1341120000B23F46 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PromoTestViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35D45FBC1341120000B23F46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35D45FC41341120000B23F46 /* UIKit.framework in Frameworks */,
+				35D45FC61341120000B23F46 /* Foundation.framework in Frameworks */,
+				35D45FC81341120000B23F46 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35D45FB41341120000B23F46 = {
+			isa = PBXGroup;
+			children = (
+				35D45FC91341120000B23F46 /* PromoTest */,
+				35D45FC21341120000B23F46 /* Frameworks */,
+				35D45FC01341120000B23F46 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		35D45FC01341120000B23F46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				35D45FBF1341120000B23F46 /* PromoTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		35D45FC21341120000B23F46 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				35D45FC31341120000B23F46 /* UIKit.framework */,
+				35D45FC51341120000B23F46 /* Foundation.framework */,
+				35D45FC71341120000B23F46 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		35D45FC91341120000B23F46 /* PromoTest */ = {
+			isa = PBXGroup;
+			children = (
+				35D45FD21341120000B23F46 /* PromoTestAppDelegate.h */,
+				35D45FD31341120000B23F46 /* PromoTestAppDelegate.m */,
+				35D45FD51341120000B23F46 /* MainWindow.xib */,
+				35D45FD81341120000B23F46 /* PromoTestViewController.h */,
+				35D45FD91341120000B23F46 /* PromoTestViewController.m */,
+				35D45FDB1341120000B23F46 /* PromoTestViewController.xib */,
+				35D45FCA1341120000B23F46 /* Supporting Files */,
+			);
+			path = PromoTest;
+			sourceTree = "<group>";
+		};
+		35D45FCA1341120000B23F46 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				35D45FCB1341120000B23F46 /* PromoTest-Info.plist */,
+				35D45FCC1341120000B23F46 /* InfoPlist.strings */,
+				35D45FCF1341120000B23F46 /* PromoTest-Prefix.pch */,
+				35D45FD01341120000B23F46 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		35D45FBE1341120000B23F46 /* PromoTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35D45FE01341120000B23F46 /* Build configuration list for PBXNativeTarget "PromoTest" */;
+			buildPhases = (
+				35D45FBB1341120000B23F46 /* Sources */,
+				35D45FBC1341120000B23F46 /* Frameworks */,
+				35D45FBD1341120000B23F46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PromoTest;
+			productName = PromoTest;
+			productReference = 35D45FBF1341120000B23F46 /* PromoTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		35D45FB61341120000B23F46 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 35D45FB91341120000B23F46 /* Build configuration list for PBXProject "PromoTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 35D45FB41341120000B23F46;
+			productRefGroup = 35D45FC01341120000B23F46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				35D45FBE1341120000B23F46 /* PromoTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		35D45FBD1341120000B23F46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35D45FCE1341120000B23F46 /* InfoPlist.strings in Resources */,
+				35D45FD71341120000B23F46 /* MainWindow.xib in Resources */,
+				35D45FDD1341120000B23F46 /* PromoTestViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35D45FBB1341120000B23F46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35D45FD11341120000B23F46 /* main.m in Sources */,
+				35D45FD41341120000B23F46 /* PromoTestAppDelegate.m in Sources */,
+				35D45FDA1341120000B23F46 /* PromoTestViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		35D45FCC1341120000B23F46 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35D45FCD1341120000B23F46 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		35D45FD51341120000B23F46 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35D45FD61341120000B23F46 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		35D45FDB1341120000B23F46 /* PromoTestViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35D45FDC1341120000B23F46 /* en */,
+			);
+			name = PromoTestViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		35D45FDE1341120000B23F46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		35D45FDF1341120000B23F46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		35D45FE11341120000B23F46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PromoTest/PromoTest-Prefix.pch";
+				INFOPLIST_FILE = "PromoTest/PromoTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		35D45FE21341120000B23F46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PromoTest/PromoTest-Prefix.pch";
+				INFOPLIST_FILE = "PromoTest/PromoTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		35D45FB91341120000B23F46 /* Build configuration list for PBXProject "PromoTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35D45FDE1341120000B23F46 /* Debug */,
+				35D45FDF1341120000B23F46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35D45FE01341120000B23F46 /* Build configuration list for PBXNativeTarget "PromoTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35D45FE11341120000B23F46 /* Debug */,
+				35D45FE21341120000B23F46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 35D45FB61341120000B23F46 /* Project object */;
+}
