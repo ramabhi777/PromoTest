@@ -9,9 +9,11 @@
 #import "PromoTestViewController.h"
 
 @implementation PromoTestViewController
+@synthesize textView;
 
 - (void)dealloc
 {
+    [textView release];
     [super dealloc];
 }
 
@@ -35,6 +37,7 @@
 
 - (void)viewDidUnload
 {
+    [self setTextView:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -44,6 +47,11 @@
 {
     // Return YES for supported orientations
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
+}
+
+- (BOOL)textFieldShouldReturn:(UITextField *)textField {
+    NSLog(@"Want to redeem: %@", textField.text);
+    return TRUE;
 }
 
 @end

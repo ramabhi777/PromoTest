@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PromoTestViewController : UIViewController {
+@interface PromoTestViewController : UIViewController <UITextFieldDelegate> {
     
+    UITextView *textView;
 }
+@property (nonatomic, retain) IBOutlet UITextView *textView;
 
 @end
